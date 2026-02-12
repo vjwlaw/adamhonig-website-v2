@@ -12,9 +12,9 @@ export default function Footer() {
           In memory of Celia Honig
         </Link>
         <span>&middot;</span>
-        <a href="https://gerrynewman.adamhonig.com" className="hover:text-purple-200/60 transition-colors" target="_blank" rel="noopener noreferrer">
+        <Link to="/in-memory/gerry-newman" className="hover:text-purple-200/60 transition-colors">
           In memory of Geraldine Newman
-        </a>
+        </Link>
       </div>
     </footer>
   );
