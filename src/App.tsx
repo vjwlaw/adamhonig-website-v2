@@ -9,6 +9,7 @@ import ShmeggeggyLanding from './components/shmeggeggy/ShmeggeggyLanding';
 import ShmeggeggyReview from './components/shmeggeggy/ShmeggeggyReview';
 import AlanHonigMemorial from './components/memorial/AlanHonigMemorial';
 import CeliaHonigMemorial from './components/memorial/CeliaHonigMemorial';
+import GerryNewmanMemorial from './components/memorial/GerryNewmanMemorial';
 import NotFound from './components/layout/NotFound';
 
 declare global {
@@ -42,6 +43,7 @@ export default function App() {
         <Route path="/shmeggeggy/review" element={<ShmeggeggyReview />} />
         <Route path="/in-memory/alan-honig" element={<AlanHonigMemorial />} />
         <Route path="/in-memory/celia-honig" element={<CeliaHonigMemorial />} />
+        <Route path="/in-memory/gerry-newman" element={<GerryNewmanMemorial />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
