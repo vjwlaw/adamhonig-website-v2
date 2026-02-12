@@ -55,7 +55,7 @@ export default function CeliaHonigMemorial() {
                 borderRadius: '0 0 8px 8px',
               }}
             >
-              <h1 className="text-2xl md:text-[2rem] font-bold text-white m-0" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)' }}>
+              <h1 className="text-2xl md:text-[2rem] font-bold text-white m-0" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)', color: '#FFFFFF' }}>
                 In Loving Memory of Celia Honig
               </h1>
               <p className="text-white/90 mt-2 text-lg md:text-xl" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)' }}>

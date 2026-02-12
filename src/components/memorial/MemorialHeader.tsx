@@ -19,7 +19,7 @@ export default function MemorialHeader({ name, years, backgroundImage, published
       }}
     >
       <div className="relative z-10 px-4 sm:px-8">
-        <h1 className="text-2xl sm:text-3xl md:text-[3.5rem] font-bold mb-2 text-white" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)' }}>
+        <h1 className="text-2xl sm:text-3xl md:text-[3.5rem] font-bold mb-2 text-white" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)', color: '#FFFFFF' }}>
           {name}
         </h1>
         <p className="text-xl sm:text-2xl md:text-3xl mt-0 italic text-white" style={{ fontFamily: 'var(--font-heading)' }}>
