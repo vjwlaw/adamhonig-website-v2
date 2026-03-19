@@ -12,21 +12,21 @@ export default function AlanHonigMemorial() {
         <title>Remembering Alan Honig | 1942 - 2002</title>
         <meta name="description" content="A memorial tribute to Alan Honig, a beloved father, husband, and advertising executive from Huntington Bay, New York." />
         <link rel="canonical" href="https://adamhonig.com/in-memory/alan-honig" />
-        <link rel="preload" as="image" href="/memorial/alan/top-image.jpg" />
+        <link rel="preload" as="image" href="/memorial/alan/top-image.webp" />
         <meta property="og:title" content="Remembering Alan Honig | 1942 - 2002" />
         <meta property="og:description" content="A memorial tribute to Alan Honig, a beloved father, husband, and advertising executive from Huntington Bay, New York." />
-        <meta property="og:image" content="/memorial/alan/top-image.jpg" />
+        <meta property="og:image" content="/memorial/alan/top-image.webp" />
         <meta property="og:url" content="https://adamhonig.com/in-memory/alan-honig" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Remembering Alan Honig | 1942 - 2002" />
         <meta name="twitter:description" content="A memorial tribute to Alan Honig, a beloved father, husband, and advertising executive from Huntington Bay, New York." />
-        <meta name="twitter:image" content="/memorial/alan/top-image.jpg" />
+        <meta name="twitter:image" content="/memorial/alan/top-image.webp" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "Remembering Alan Honig | 1942 - 2002",
           "description": "A memorial tribute to Alan Honig, a beloved father, husband, and advertising executive from Huntington Bay, New York.",
-          "image": "https://adamhonig.com/memorial/alan/top-image.jpg",
+          "image": "https://adamhonig.com/memorial/alan/top-image.webp",
           "datePublished": "2013-06-16",
           "author": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
           "publisher": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
@@ -43,7 +43,7 @@ export default function AlanHonigMemorial() {
       <MemorialHeader
         name="Remembering Alan Honig"
         years="1942 – 2002"
-        backgroundImage="/memorial/alan/top-image.jpg"
+        backgroundImage="/memorial/alan/top-image.webp"
         publishedDate="Originally published on June 16, 2013"
       />
 
@@ -66,7 +66,7 @@ export default function AlanHonigMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/alan/groucho.jpg" alt="Alan and Celia as Groucho and Harpo" className="w-full h-auto" loading="lazy" />
+            <img src="/memorial/alan/groucho.webp" alt="Alan and Celia as Groucho and Harpo" className="w-full h-auto" loading="lazy" />
             <figcaption>Alan and Celia as Groucho and Harpo</figcaption>
           </figure>
 
@@ -75,7 +75,7 @@ export default function AlanHonigMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/alan/alan-honig-celia-honig-adam-bar-mitzvah.jpg" alt="Alan Honig and Celia Honig with the author at his bar mitzvah in 1980" className="w-full h-auto" loading="lazy" />
+            <img src="/memorial/alan/alan-honig-celia-honig-adam-bar-mitzvah.webp" alt="Alan Honig and Celia Honig with the author at his bar mitzvah in 1980" className="w-full h-auto" loading="lazy" />
             <figcaption>Alan Honig and Celia Honig with the author at his bar mitzvah in 1980</figcaption>
           </figure>
 
@@ -92,7 +92,7 @@ export default function AlanHonigMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/alan/alan-honig-celia-honig-2009.jpg" alt="Alan and Celia Honig" className="w-full h-auto" loading="lazy" />
+            <img src="/memorial/alan/alan-honig-celia-honig-2009.webp" alt="Alan and Celia Honig" className="w-full h-auto" loading="lazy" />
             <figcaption>Alan and Celia Honig</figcaption>
           </figure>
 
@@ -123,7 +123,7 @@ export default function AlanHonigMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/alan/alan-honig-40-th-birthday.jpg" alt="Alan Honig's 40th Birthday" className="w-full h-auto" loading="lazy" />
+            <img src="/memorial/alan/alan-honig-40-th-birthday.webp" alt="Alan Honig's 40th Birthday" className="w-full h-auto" loading="lazy" />
             <figcaption>Alan Honig at his surprise 40th birthday party</figcaption>
           </figure>
 

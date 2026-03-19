@@ -12,21 +12,21 @@ export default function CeliaHonigMemorial() {
         <title>In Memory of Celia Honig | 1944 - 2010</title>
         <meta name="description" content="Memorial page dedicated to Celia Honig (1944-2010), a beloved mother, artist, and entrepreneur who touched many lives with her warmth and creativity." />
         <link rel="canonical" href="https://adamhonig.com/in-memory/celia-honig" />
-        <link rel="preload" as="image" href="/memorial/celia/celia-honig-in-1998.jpg" />
+        <link rel="preload" as="image" href="/memorial/celia/celia-honig-in-1998.webp" />
         <meta property="og:title" content="In Memory of Celia Honig | 1944 - 2010" />
         <meta property="og:description" content="Remembering Celia Honig (1944-2010), a remarkable woman who brought joy and creativity to everyone around her." />
-        <meta property="og:image" content="/memorial/celia/celia-honig-in-1998.jpg" />
+        <meta property="og:image" content="/memorial/celia/celia-honig-in-1998.webp" />
         <meta property="og:url" content="https://adamhonig.com/in-memory/celia-honig" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="In Memory of Celia Honig | 1944 - 2010" />
         <meta name="twitter:description" content="Remembering Celia Honig (1944-2010), a remarkable woman who brought joy and creativity to everyone around her." />
-        <meta name="twitter:image" content="/memorial/celia/celia-honig-in-1998.jpg" />
+        <meta name="twitter:image" content="/memorial/celia/celia-honig-in-1998.webp" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "In Memory of Celia Honig | 1944 - 2010",
           "description": "Memorial page dedicated to Celia Honig (1944-2010), a beloved mother, artist, and entrepreneur who touched many lives with her warmth and creativity.",
-          "image": "https://adamhonig.com/memorial/celia/celia-honig-in-1998.jpg",
+          "image": "https://adamhonig.com/memorial/celia/celia-honig-in-1998.webp",
           "datePublished": "2010-01-17",
           "author": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
           "publisher": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
@@ -43,7 +43,7 @@ export default function CeliaHonigMemorial() {
       <MemorialHeader
         name="Celia Honig"
         years="1944 – 2010"
-        backgroundImage="/memorial/celia/celia-honig-in-1998.jpg"
+        backgroundImage="/memorial/celia/celia-honig-in-1998.webp"
         publishedDate="Originally published on January 17, 2010"
       />
 
@@ -65,7 +65,7 @@ export default function CeliaHonigMemorial() {
 
           <figure className="my-8 max-w-[700px] mx-auto">
             <img
-              src="/memorial/celia/celia-and-alan-honig-in-costume-e1526131710393.jpg"
+              src="/memorial/celia/celia-and-alan-honig-in-costume-e1526131710393.webp"
               alt="Celia and Alan Honig in costume"
               className="w-full h-auto rounded-lg shadow-md"
               loading="lazy"
@@ -83,7 +83,7 @@ export default function CeliaHonigMemorial() {
           <div className="flex flex-col items-center gap-4 sm:gap-6 md:gap-8 my-8 max-w-[700px] mx-auto">
             <figure className="w-full">
               <img
-                src="/memorial/celia/peaches.jpg"
+                src="/memorial/celia/peaches.webp"
                 alt="Celia Honig painting of peaches"
                 className="w-full h-auto rounded-lg shadow-md"
                 loading="lazy"
@@ -92,7 +92,7 @@ export default function CeliaHonigMemorial() {
             </figure>
             <figure className="w-full">
               <img
-                src="/memorial/celia/abstract.jpg"
+                src="/memorial/celia/abstract.webp"
                 alt="Abstract painting by Celia Honig"
                 className="w-full h-auto rounded-lg shadow-md"
                 loading="lazy"
@@ -109,7 +109,7 @@ export default function CeliaHonigMemorial() {
 
           <figure className="my-8 max-w-[700px] mx-auto">
             <img
-              src="/memorial/celia/celia-and-adam-honig.jpg"
+              src="/memorial/celia/celia-and-adam-honig.webp"
               alt="Celia and Adam Honig in 2004"
               className="w-full h-auto rounded-lg shadow-md"
               loading="lazy"
@@ -129,7 +129,7 @@ export default function CeliaHonigMemorial() {
 
           <figure className="my-8 max-w-[700px] mx-auto">
             <img
-              src="/memorial/celia/celia-and-alan-honig.jpg"
+              src="/memorial/celia/celia-and-alan-honig.webp"
               alt="Celia and Alan the way they are in my mind forever"
               className="w-full h-auto rounded-lg shadow-md"
               loading="lazy"

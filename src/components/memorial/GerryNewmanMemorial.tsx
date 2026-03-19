@@ -14,18 +14,18 @@ export default function GerryNewmanMemorial() {
         <link rel="canonical" href="https://adamhonig.com/in-memory/gerry-newman" />
         <meta property="og:title" content="In Loving Memory - Geraldine Newman | 1920 - 2012" />
         <meta property="og:description" content="A memorial tribute to Geraldine Newman (1920-2012) - celebrating the life of a beloved grandmother, traveler, and card game enthusiast." />
-        <meta property="og:image" content="/memorial/gerry/geraldine-newman.jpg" />
+        <meta property="og:image" content="/memorial/gerry/geraldine-newman.webp" />
         <meta property="og:url" content="https://adamhonig.com/in-memory/gerry-newman" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="In Loving Memory - Geraldine Newman | 1920 - 2012" />
         <meta name="twitter:description" content="A memorial tribute to Geraldine Newman (1920-2012) - celebrating the life of a beloved grandmother, traveler, and card game enthusiast." />
-        <meta name="twitter:image" content="/memorial/gerry/geraldine-newman.jpg" />
+        <meta name="twitter:image" content="/memorial/gerry/geraldine-newman.webp" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "In Loving Memory - Geraldine Newman | 1920 - 2012",
           "description": "A memorial tribute to Geraldine Newman (1920-2012) - celebrating the life of a beloved grandmother, traveler, and card game enthusiast.",
-          "image": "https://adamhonig.com/memorial/gerry/geraldine-newman.jpg",
+          "image": "https://adamhonig.com/memorial/gerry/geraldine-newman.webp",
           "datePublished": "2012-05-09",
           "author": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
           "publisher": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
@@ -42,7 +42,7 @@ export default function GerryNewmanMemorial() {
       <MemorialHeader
         name="Geraldine Newman"
         years="1920 – 2012"
-        backgroundImage="/memorial/gerry/geraldine-newman.jpg"
+        backgroundImage="/memorial/gerry/geraldine-newman.webp"
         publishedDate="May 9, 2012"
       />
 
@@ -63,7 +63,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/grandma-with-nol-and-adam.jpg" alt="Grandma with Nol and Adam" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/grandma-with-nol-and-adam.webp" alt="Grandma with Nol and Adam" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">Grandma with Nol and Adam</figcaption>
           </figure>
 
@@ -87,7 +87,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/mandelbrot-recipe.jpg" alt="Grandma's handwritten Mandelbrot recipe" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/mandelbrot-recipe.webp" alt="Grandma's handwritten Mandelbrot recipe" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">Grandma's handwritten Mandelbrot recipe</figcaption>
           </figure>
 
@@ -104,7 +104,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/geraldine-and-jack-newman.jpg" alt="Geraldine and Jack Newman" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/geraldine-and-jack-newman.webp" alt="Geraldine and Jack Newman" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">Geraldine and Jack Newman</figcaption>
           </figure>
 
@@ -122,7 +122,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/veronica-and-grandma.jpg" alt="Veronica and Grandma" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/veronica-and-grandma.webp" alt="Veronica and Grandma" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">Veronica and Grandma</figcaption>
           </figure>
 
@@ -134,7 +134,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/gerry-newman-and-friends.jpg" alt="Gerry having fun" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/gerry-newman-and-friends.webp" alt="Gerry having fun" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">Gerry having fun</figcaption>
           </figure>
 
@@ -151,7 +151,7 @@ export default function GerryNewmanMemorial() {
           </p>
 
           <figure className="my-16 text-center">
-            <img src="/memorial/gerry/gma-with-kids.jpg" alt="G'ma and her grandkids" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
+            <img src="/memorial/gerry/gma-with-kids.webp" alt="G'ma and her grandkids" className="w-full h-auto rounded-lg shadow-md" loading="lazy" />
             <figcaption className="mt-4 text-stone-500 italic">G'ma and her grandkids</figcaption>
           </figure>
 

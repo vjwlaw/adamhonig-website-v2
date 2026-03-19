@@ -11,7 +11,7 @@ export default function HomePage() {
         <title>Adam Honig - Tech Entrepreneur & Speaker</title>
         <meta name="description" content="Tech entrepreneur, thought leader in B2B sales and AI. Founder & CEO of Spiro.ai, the anti-CRM CRM. Speaker and podcast host of Make It Move It Sell It." />
         <link rel="canonical" href="https://adamhonig.com/" />
-        <link rel="preload" as="image" href="/adam-headshot-friendly.png" />
+        <link rel="preload" as="image" href="/adam-headshot-friendly.webp" />
       </Helmet>
       <Breadcrumbs items={[{ name: "Home", url: "https://adamhonig.com/" }]} />
       <div className="container mx-auto px-4 py-12 md:py-24">
@@ -22,7 +22,7 @@ export default function HomePage() {
                 <div className="absolute -inset-2 bg-purple-500/20 rounded-full blur-xl"></div>
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple-500/30 shadow-xl">
                   <img
-                    src="/adam-headshot-friendly.png"
+                    src="/adam-headshot-friendly.webp"
                     alt="Adam Honig"
                     width="160"
                     height="160"
