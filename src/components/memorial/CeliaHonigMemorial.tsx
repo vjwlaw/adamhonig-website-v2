@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import MemorialLayout from './MemorialLayout';
+import MemorialHeader from './MemorialHeader';
 import MemorialFooter from './MemorialFooter';
 import Breadcrumbs from '../layout/Breadcrumbs';
 
@@ -8,16 +9,16 @@ export default function CeliaHonigMemorial() {
   return (
     <MemorialLayout>
       <Helmet>
-        <title>In Memory of Celia Honig</title>
+        <title>In Memory of Celia Honig | 1944 - 2010</title>
         <meta name="description" content="Memorial page dedicated to Celia Honig (1944-2010), a beloved mother, artist, and entrepreneur who touched many lives with her warmth and creativity." />
         <link rel="canonical" href="https://adamhonig.com/in-memory/celia-honig" />
         <link rel="preload" as="image" href="/memorial/celia/celia-honig-in-1998.jpg" />
-        <meta property="og:title" content="In Memory of Celia Honig" />
+        <meta property="og:title" content="In Memory of Celia Honig | 1944 - 2010" />
         <meta property="og:description" content="Remembering Celia Honig (1944-2010), a remarkable woman who brought joy and creativity to everyone around her." />
         <meta property="og:image" content="/memorial/celia/celia-honig-in-1998.jpg" />
         <meta property="og:url" content="https://adamhonig.com/in-memory/celia-honig" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="In Memory of Celia Honig" />
+        <meta name="twitter:title" content="In Memory of Celia Honig | 1944 - 2010" />
         <meta name="twitter:description" content="Remembering Celia Honig (1944-2010), a remarkable woman who brought joy and creativity to everyone around her." />
         <meta name="twitter:image" content="/memorial/celia/celia-honig-in-1998.jpg" />
         <script type="application/ld+json">{JSON.stringify({
@@ -39,38 +40,22 @@ export default function CeliaHonigMemorial() {
         { name: "Celia Honig", url: "https://adamhonig.com/in-memory/celia-honig" },
       ]} />
 
-      <div className="max-w-[800px] mx-auto px-4">
-        <main className="bg-white rounded-xl shadow-sm overflow-hidden">
-          {/* Hero image with overlay */}
-          <figure className="relative my-8">
-            <img
-              src="/memorial/celia/celia-honig-in-1998.jpg"
-              alt="Celia Honig in 1998"
-              className="w-full h-auto rounded-lg"
-            />
-            <div
-              className="absolute bottom-0 left-0 right-0 text-center px-4 pb-4 pt-8"
-              style={{
-                background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
-                borderRadius: '0 0 8px 8px',
-              }}
-            >
-              <h1 className="text-2xl md:text-[2rem] font-bold text-white m-0" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)', color: '#FFFFFF' }}>
-                In Loving Memory of Celia Honig
-              </h1>
-              <p className="text-white/90 mt-2 text-lg md:text-xl" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)', fontFamily: 'var(--font-heading)' }}>
-                1944 - 2010
-              </p>
-            </div>
-          </figure>
+      <MemorialHeader
+        name="Celia Honig"
+        years="1944 – 2010"
+        backgroundImage="/memorial/celia/celia-honig-in-1998.jpg"
+        publishedDate="Originally published on January 17, 2010"
+      />
 
-          <div className="mx-4 md:mx-auto max-w-[650px] mb-8">
+      <section className="py-16 md:py-24">
+        <div className="w-[90%] max-w-[800px] mx-auto px-4">
+          <div className="mb-8">
             <p>My Mom, Celia Honig, died Sunday, January 17th, 2010. She was 65 and had been struggling with Alzheimer's Disease for about ten years.</p>
 
             <p>Though the disease made her final years difficult for her and our family, Mom had a tremendous amount of joy and love in her life and certainly lived her life to the fullest possible. She rarely complained and always told me that she was a 'happy person'.</p>
           </div>
 
-          <div className="mx-4 md:mx-auto max-w-[650px] mb-8">
+          <div className="mb-8">
             <p>Celia was born in 1944 to Jack and <a href="https://gerrynewman.adamhonig.com" target="_blank" rel="noopener noreferrer">Geraldine Newman</a> in New York City. She grew up with her brother Harvey in Washington Heights and then later Douglaston, Queens. According to Karen Wasserman, one of her friends back then, "she was the prettiest, sweetest girl in the neighborhood." After high school, Celia attended classes at the Fashion Institute of Technology in Manhattan, but did not graduate.</p>
 
             <p>How her eventual husband, <Link to="/in-memory/alan-honig">Alan Honig</Link>, managed to date her and eventually marry her in 1964 is still a mystery. Celia and Alan moved to Long Island and had me in 1967 and Nol in 1970.</p>

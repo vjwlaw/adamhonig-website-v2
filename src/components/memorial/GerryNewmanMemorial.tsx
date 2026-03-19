@@ -20,6 +20,17 @@ export default function GerryNewmanMemorial() {
         <meta name="twitter:title" content="In Loving Memory - Geraldine Newman | 1920 - 2012" />
         <meta name="twitter:description" content="A memorial tribute to Geraldine Newman (1920-2012) - celebrating the life of a beloved grandmother, traveler, and card game enthusiast." />
         <meta name="twitter:image" content="/memorial/gerry/geraldine-newman.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "In Loving Memory - Geraldine Newman | 1920 - 2012",
+          "description": "A memorial tribute to Geraldine Newman (1920-2012) - celebrating the life of a beloved grandmother, traveler, and card game enthusiast.",
+          "image": "https://adamhonig.com/memorial/gerry/geraldine-newman.jpg",
+          "datePublished": "2012-05-09",
+          "author": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
+          "publisher": { "@type": "Person", "name": "Adam Honig", "url": "https://adamhonig.com" },
+          "mainEntityOfPage": "https://adamhonig.com/in-memory/gerry-newman"
+        })}</script>
       </Helmet>
 
       <Breadcrumbs items={[
