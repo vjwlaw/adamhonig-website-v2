@@ -9,6 +9,8 @@ export default function MemorialHeader({ name, years, backgroundImage, published
   return (
     <header
       className="relative flex items-center justify-center text-center text-white"
+      role="img"
+      aria-label={`Memorial banner for ${name}`}
       style={{
         height: '50vh',
         minHeight: '300px',

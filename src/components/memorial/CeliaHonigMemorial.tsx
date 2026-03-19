@@ -142,8 +142,8 @@ export default function CeliaHonigMemorial() {
 
             <p>The consensus, first suggested to me by my cousin Amy, is that Celia and Alan, wherever they are right now, are having a drink, probably a smoke, and getting ready to dance.</p>
           </div>
-        </main>
-      </div>
+        </div>
+      </section>
 
       <MemorialFooter name="Celia Honig" years="1944 - 2010" closingText="Forever in our hearts" />
     </MemorialLayout>
